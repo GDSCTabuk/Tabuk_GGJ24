@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Personality Test</title>
+  <link rel="stylesheet" href="test.css" />
+  <title>test Page</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="brand">GLOBAL GAME JAM</a>
+    <div class="menu-btn">
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="index.html">Home</a>
+          <a href="Team Member Ranking.html">Team Member Ranking</a>
+          <a href=" test.html">Member rank test</a>
+          <a href="https://t.co/P3Uz2F0XHz">التسجيل </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <br>
+  <br>
+  <br>  
+  <br>
+
+  <div class="welcome">
+    <img class="header-image" src="logo GGJ.png" alt="logo GGJ" />  
+    <div class="start-test" onclick="startTest()">Start test</div>
+</div>
+
+<div class="container">
+  <div class="question-container">
+    <div id="question-count">Question <span id="counter"></span>/10</div>
+    <div id="question"></div>
+    <div class="ans" id="div-ans-a" onclick="selectedAnswer(0)">
+      <span class="my-alpha">A</span><span id="ans-a"></span>
+    </div>
+    <div class="ans" id="div-ans-b" onclick="selectedAnswer(1)">
+      <span class="my-alpha">B</span><span id="ans-b"></span>
+    </div>
+    <div class="ans" id="div-ans-c" onclick="selectedAnswer(2)">
+      <span class="my-alpha">C</span><span id="ans-c"></span>
+    </div>
+    <div class="ans" id="div-ans-d" onclick="selectedAnswer(3)">
+      <span class="my-alpha">D</span><span id="ans-d"></span>
+    </div>
+    <div class="btn">
+      <div id="previous" onclick="previousQuestion()"><  Previous</div>
+      <div id="next" onclick="nextQuestion()">Next ></div>
+      <div id="restart" onclick="restartQuestion()">Restart</div>
+    </div>
+    <div id="test-result">
+      <img src="" id="image" />
+      <div id="trait">
+        <strong id="trait-title"></strong> <br />
+        <div></div>
+        <ul id="personalities"></ul>
+      </div>
+    </div>
+  </div>
+  <div class="your-answers">
+    <div class="title">Your selected answers.</div>
+    <div id="answers"></div>
+  </div>
+</div>
+
+  <script src="test1.js"></script>
+  <script src="test.js"></script>
+</body>
+
+<br>
+<br>
+<footer style="background-color:  #434472;">
+  
+  <h4 style="font-size: 25px; direction: rtl;">
+    <span>منظم ومستضيف الفعالية:</span>
+  </h4>
+  <div class="footer-content">
+    <div class="image-container">
+     
+      <a href="https://www.ut.edu.sa/ar/Pages/default.aspx"><img src="Tabuk University.png" alt="Tabuk University" style="width: 100px; height: 100px;"></a>
+      <a href="https://twitter.com/GDSCTabuk"><img src="GDSC.png" alt="GDSC"></a>
+      <a href="https://www.dga.sa/"><img src="Digital Games Association.png" alt="Digital Games Association"></a>
+     </div> </div> <div class="footer-bottom">
+      <p>Provided by: <span>Tabuk University & GDSC Tabuk -</span> designed by: <span> Raneem Maashi. 
+      </span>  <br> All rights reserved. &copy; 2024. </p>
+        </div>
+     </footer>
+      </html>
